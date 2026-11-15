@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>최용욱 포트폴리오</title>
+  <meta name="description" content="현장의 데이터로 최적의 기획을 설계하는 사람, 최용욱의 포트폴리오" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== 상단 내비게이션 ===== -->
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">YW<span>.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="메뉴 열기">☰</button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">소개</a>
+        <a href="#skills">역량</a>
+        <a href="#experience">경력</a>
+        <a href="#projects">프로젝트</a>
+        <a href="#credentials">자격·수상</a>
+        <a href="#contact">연락처</a>
+        <a href="#location">찾아오는 길</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <div class="hero-text reveal">
+        <p class="eyebrow">품질관리 · R&amp;D 기획 · 정책 기획</p>
+        <h1><em class="field">현장의 데이터</em>로<br /><em class="plan">최적의 기획</em>을<br />설계하는 사람</h1>
+        <p class="hero-sub">안녕하세요, <strong>최용욱</strong>입니다. 제조 현장의 품질 업무에서 출발해 정책·R&amp;D 기획 컨설팅으로 경력을 넓혀 왔습니다. 현장의 품질·공정 자료와 시장·정책 자료를 포괄하여 분석하고, 최적의 결과를 도출합니다.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">프로젝트 보기</a>
+          <a href="#contact" class="btn btn-ghost">연락하기</a>
+        </div>
+        <ul class="keywords">
+          <li>#성실성</li><li>#창의성</li><li>#협동심</li>
+        </ul>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="avatar">
+          <!-- 이력서 사진을 참고한 일러스트 (남색 정장, 줄무늬 넥타이, 짧은 흑발) -->
+          <svg viewBox="0 0 200 200" role="img" aria-label="최용욱 프로필 일러스트">
+            <defs>
+              <clipPath id="tieClip"><path d="M95.5 165 L104.5 165 L109 193 L100 203 L91 193 Z" /></clipPath>
+            </defs>
+            <!-- 정장 -->
+            <path d="M24 204 C26 170 50 153 100 150 C150 153 174 170 176 204 Z" fill="#1f2b4d" />
+            <!-- 셔츠 -->
+            <path d="M78 151 L100 190 L122 151 Z" fill="#ffffff" />
+            <!-- 라펠 -->
+            <path d="M78 151 L100 190 L86 204 L66 160 Z" fill="#17213c" />
+            <path d="M122 151 L100 190 L114 204 L134 160 Z" fill="#17213c" />
+            <!-- 넥타이 -->
+            <path d="M94 155 L106 155 L104.5 165 L95.5 165 Z" fill="#26375f" />
+            <g clip-path="url(#tieClip)">
+              <rect x="86" y="160" width="28" height="46" fill="#26375f" />
+              <g stroke="#c8d3ea" stroke-width="2.2">
+                <line x1="84" y1="172" x2="116" y2="160" />
+                <line x1="84" y1="182" x2="116" y2="170" />
+                <line x1="84" y1="192" x2="116" y2="180" />
+                <line x1="84" y1="202" x2="116" y2="190" />
+              </g>
+              <g stroke="#b8414e" stroke-width="1.2">
+                <line x1="84" y1="176" x2="116" y2="164" />
+                <line x1="84" y1="196" x2="116" y2="184" />
+              </g>
+            </g>
+            <!-- 목 -->
+            <path d="M87 124 L113 124 L113 148 Q100 160 87 148 Z" fill="#e4b18d" />
+            <!-- 귀 -->
+            <ellipse cx="62" cy="100" rx="7" ry="10" fill="#efbf9c" />
+            <ellipse cx="138" cy="100" rx="7" ry="10" fill="#efbf9c" />
+            <!-- 얼굴 -->
+            <ellipse cx="100" cy="97" rx="38" ry="44" fill="#f4caa8" />
+            <!-- 머리카락 (짧은 가르마) -->
+            <path d="M60 98 C54 60 74 42 101 42 C130 42 148 60 140 98 C138 84 132 74 122 68 C104 74 84 72 70 64 C64 72 61 84 60 98 Z" fill="#1c1c22" />
+            <path d="M84 52 C96 46 112 46 126 54" stroke="#33333d" stroke-width="2" fill="none" stroke-linecap="round" />
+            <!-- 눈썹 -->
+            <path d="M80 89 Q87 85 94 88" stroke="#1c1c22" stroke-width="3" fill="none" stroke-linecap="round" />
+            <path d="M106 88 Q113 85 120 89" stroke="#1c1c22" stroke-width="3" fill="none" stroke-linecap="round" />
+            <!-- 눈 -->
+            <ellipse cx="87" cy="100" rx="3.2" ry="3.6" fill="#1c1c22" />
+            <ellipse cx="113" cy="100" rx="3.2" ry="3.6" fill="#1c1c22" />
+            <!-- 코, 입 -->
+            <path d="M100 104 Q97 112 101 114" stroke="#d29a78" stroke-width="2" fill="none" stroke-linecap="round" />
+            <path d="M89 121 Q100 129 111 121" stroke="#b5654f" stroke-width="2.6" fill="none" stroke-linecap="round" />
+          </svg>
+        </div>
+        <div class="stats">
+          <div><b data-count="4">0</b><small>년+ 경력</small></div>
+          <div><b data-count="15">0</b><small>건+ 수행 과제</small></div>
+          <div><b data-count="12">0</b><small>개 발주기관</small></div>
+          <div><b data-count="5">0</b><small>개 자격증</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title reveal"><span>01</span> 나는 이런 사람입니다</h2>
+      <div class="about-grid">
+        <article class="card reveal">
+          <div class="card-icon c1" aria-hidden="true">📊</div>
+          <h3>데이터로 근거를 만드는 사람</h3>
+          <p>품질 현장에서는 <strong>주간 불량률을 분석</strong>해 개선 조치로 연결했고, 컨설팅에서는 <strong>인력수급·산업 생태계 실태조사 DB 분석</strong>과 시장동향 기반 <strong>B/C 분석</strong>으로 정책 기획의 근거를 만들었습니다.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon c2" aria-hidden="true">🤝</div>
+          <h3>협업으로 일을 진행시키는 파트너</h3>
+          <p>담당자 교체와 부재가 겹친 상황에서 부서별 관리대장을 배포하고 직접 소통해 <strong>약 100개 계측기의 검교정을 하루 만에</strong> 마쳤습니다. 이 방식으로 산·학·연 위원회를 운영하고 있습니다.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon c3" aria-hidden="true">📚</div>
+          <h3>배우고 반복해서 익히는 사람</h3>
+          <p>새 업무는 한 번 끝낸 뒤에도 <strong>반복하고 재확인하며 절차를 손에 익힙니다</strong>. 업무 영역이 넓어질 때마다 <strong>ISO 9001 심사원, 기술사업화 TCT 과정</strong> 등으로 필요한 지식을 직접 채워 왔습니다.</p>
+        </article>
+      </div>
+      <blockquote class="quote reveal">
+        “제조 현장과 정책 기획을 모두 경험했기에, 현장의 자료와 시장·정책 자료를 포괄하여 분석하고 최적의 결과를 도출할 수 있습니다.”
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section alt" id="skills">
+    <div class="container">
+      <h2 class="section-title reveal"><span>02</span> 이런 역량을 갖고 있습니다</h2>
+      <div class="skills-grid">
+        <div class="skill-group reveal">
+          <h3>기획 · 전략</h3>
+          <ul class="skill-bars">
+            <li><span>중장기 전략·기본계획 수립</span><i style="--w:90%"></i></li>
+            <li><span>성과분석·후속사업 기획</span><i style="--w:85%"></i></li>
+            <li><span>실태조사·통계·DB 분석</span><i style="--w:85%"></i></li>
+            <li><span>경제성분석(B/C)·기술가치평가</span><i style="--w:75%"></i></li>
+            <li><span>위원회 운영·제안서 작성</span><i style="--w:85%"></i></li>
+          </ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3>품질 · 제조 현장</h3>
+          <ul class="skill-bars">
+            <li><span>수입·출하·공정 검사 (IQC/OQC)</span><i style="--w:85%"></i></li>
+            <li><span>계측기 검교정 (PQC)</span><i style="--w:80%"></i></li>
+            <li><span>필드 불량 원인 분석 (RMA)</span><i style="--w:70%"></i></li>
+            <li><span>검사기준서·체크리스트 작성</span><i style="--w:90%"></i></li>
+            <li><span>ISO 9001 품질경영시스템</span><i style="--w:80%"></i></li>
+          </ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3>도구 · 기타</h3>
+          <div class="chips">
+            <span>X-Ray 검사장비 (XAVIS)</span>
+            <span>3차원 측정기</span>
+            <span>예비타당성조사 지침</span>
+            <span>기술가치평가 지침</span>
+            <span>특허·선행기술 조사</span>
+            <span>Google Analytics (GAIQ)</span>
+            <span>Arduino 센서 실험</span>
+            <span>MS Office · 엑셀</span>
+            <span>영어 회화</span>
+            <span>드론 (무인동력비행장치 4종)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section class="section" id="experience">
+    <div class="container">
+      <h2 class="section-title reveal"><span>03</span> 걸어온 길</h2>
+      <ol class="timeline">
+        <li class="reveal">
+          <div class="tl-date">2023.08 – 현재</div>
+          <div class="tl-body">
+            <h3>이노싱크컨설팅 <small>R&amp;D 기획 전임연구원</small></h3>
+            <p>정책·R&amp;D 기획 용역 수행. 시장·정책·기술 동향 조사 기반의 정책기획 수립과 성과분석, 경제성분석·기술가치평가·사업화 타당성 분석.</p>
+            <div class="tags"><span>전략·계획 수립</span><span>실태조사·분류체계</span><span>성과분석</span><span>기술가치평가</span></div>
+          </div>
+        </li>
+        <li class="reveal">
+          <div class="tl-date">2022.12 – 2023.05</div>
+          <div class="tl-body">
+            <h3>에이프로 <small>사원</small></h3>
+            <p>2차전지 Formation 설비 조립 검수 및 수입검사. 구동 전 체크리스트, 설비 IP 점검 데이터 관리, 불량 대응 문서화.</p>
+          </div>
+        </li>
+        <li class="reveal">
+          <div class="tl-date">2022.03 – 2022.12</div>
+          <div class="tl-body">
+            <h3>엠브레인 <small>품질 사원</small></h3>
+            <p>자동차 전장·블랙박스 제조사에서 IQC·OQC·PQC·RMA 품질 업무 전반. X-Ray 장비로 납 불량·VOID 원인 분석, 3차원 측정기로 치수 측정.</p>
+          </div>
+        </li>
+        <li class="reveal">
+          <div class="tl-date">2021.06 – 2021.08</div>
+          <div class="tl-body">
+            <h3>브레인뱅크 <small>인턴</small></h3>
+            <p>DB 관리 및 분석, 고객사 매칭.</p>
+          </div>
+        </li>
+        <li class="reveal">
+          <div class="tl-date">2020.12 – 2021.02</div>
+          <div class="tl-body">
+            <h3>이노에이치알컨설팅그룹 <small>인턴</small></h3>
+            <p>DB 관리 및 고객사 관리 (기업매칭, 고객사 현황, 체크리스트, 현장 대응).</p>
+          </div>
+        </li>
+        <li class="reveal">
+          <div class="tl-date">2016.03 – 2022.08</div>
+          <div class="tl-body">
+            <h3>한국교통대학교 <small>산업경영공학과 졸업 · 부전공 영어영문학과</small></h3>
+            <p>졸업논문: 적절한 발 인터페이스 설계를 위한 아두이노 센서 기반의 발 속도 및 정확도 측정</p>
+          </div>
+        </li>
+        <li class="reveal">
+          <div class="tl-date">2011.11 – 2012.03</div>
+          <div class="tl-body">
+            <h3>뉴질랜드 <small>어학연수 · Pinehurst School</small></h3>
+            <p>자신감 있는 대화와 사람을 대하는 매너를 배웠습니다.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section alt" id="projects">
+    <div class="container">
+      <h2 class="section-title reveal"><span>04</span> 주요 프로젝트</h2>
+      <div class="filters reveal" id="filters">
+        <button class="active" data-filter="all">전체</button>
+        <button data-filter="strategy">전략·계획 수립</button>
+        <button data-filter="survey">실태조사·분류체계</button>
+        <button data-filter="performance">성과분석</button>
+        <button data-filter="valuation">기술가치·특허</button>
+      </div>
+      <div class="project-grid" id="projectGrid"></div>
+    </div>
+  </section>
+
+  <!-- ===== CREDENTIALS ===== -->
+  <section class="section" id="credentials">
+    <div class="container">
+      <h2 class="section-title reveal"><span>05</span> 자격 · 수상 · 교육</h2>
+      <div class="cred-grid">
+        <div class="card reveal">
+          <h3>🏅 자격증</h3>
+          <ul class="list">
+            <li><b>ISO 9001 심사원</b><span>UGC인증원 · 2025.01</span></li>
+            <li><b>GAIQ</b><span>Google · 2023.07</span></li>
+            <li><b>무인동력비행장치 4종</b><span>한국교통안전공단 · 2023.04</span></li>
+            <li><b>컴퓨터활용능력 2급</b><span>대한상공회의소 · 2021.08</span></li>
+            <li><b>2종 보통운전면허</b><span>경찰청 · 2017.07</span></li>
+          </ul>
+        </div>
+        <div class="card reveal">
+          <h3>🏆 수상</h3>
+          <ul class="list">
+            <li><b>우수논문 학술제 대상</b><span>한국교통대학교 · 2021</span></li>
+            <li><b>표창장</b><span>은평구청 교통행정과 · 2019</span></li>
+          </ul>
+          <h3 class="mt">📚 교육</h3>
+          <ul class="list">
+            <li><b>기술사업화 TCT 인력양성과정</b><span>한국세라믹기술원 · IP, 기술가치평가, 기술마케팅, BM 방법론</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section alt" id="contact">
+    <div class="container">
+      <h2 class="section-title reveal"><span>06</span> 연락하려면</h2>
+      <div class="contact-grid" id="contactGrid">
+        <!-- main.js 의 CONFIG.contact 값으로 채워집니다 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LOCATION ===== -->
+  <section class="section" id="location">
+    <div class="container">
+      <h2 class="section-title reveal"><span>07</span> 찾아오는 길</h2>
+      <div class="location-wrap reveal">
+        <div class="map" id="map">
+          <div class="map-placeholder">
+            <span>🗺️</span>
+            <p>지도 준비 중입니다</p>
+            <small>main.js 의 CONFIG.location 과 KAKAO_JS_KEY 를 채우면 지도가 표시됩니다.</small>
+          </div>
+        </div>
+        <div class="location-info">
+          <h3 id="placeName">장소 준비 중</h3>
+          <p id="placeAddr" class="muted">주소는 추후 공개 예정입니다.</p>
+          <div class="route-btns">
+            <a id="kakaoRoute" class="btn route kakao disabled" target="_blank" rel="noopener">카카오맵 길찾기</a>
+            <a id="naverRoute" class="btn route naver disabled" target="_blank" rel="noopener">네이버 지도 길찾기</a>
+          </div>
+          <p class="muted small">버튼을 누르면 목적지가 입력된 길찾기 화면이 새 창으로 열립니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 최용욱 · 창의 SW 설계 프로젝트 포트폴리오</p>
+      <a href="#home" class="to-top">↑ 맨 위로</a>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
